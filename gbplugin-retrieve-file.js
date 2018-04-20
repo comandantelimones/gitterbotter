@@ -1,5 +1,5 @@
 const fs = require('fs')
-import CommandPlugin from 'gbp-common'
+const CommandPlugin = require('./gbp-common').CommandPlugin
 
 class RetrieveFileCommand extends CommandPlugin {
     constructor() {
