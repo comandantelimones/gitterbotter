@@ -107,6 +107,6 @@ class Bot {
     }
 }
 
-export default {
+module.exports = {
     Bot: Bot
 }

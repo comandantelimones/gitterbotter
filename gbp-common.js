@@ -31,7 +31,7 @@ class CommandPlugin {
 }
 
 //------------------------------------------------------------------------------
-export default {
+module.exports = {
     Markdown: Markdown,
     CommandPlugin: CommandPlugin
 }

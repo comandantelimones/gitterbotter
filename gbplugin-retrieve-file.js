@@ -22,7 +22,7 @@ class RetrieveFileCommand extends CommandPlugin {
     }
 }
 
-export default {
+module.exports = {
     commands: [RetrieveFileCommand],
     RetrieveFileCommand: RetrieveFileCommand
 }

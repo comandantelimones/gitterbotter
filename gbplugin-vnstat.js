@@ -1,6 +1,7 @@
 const fs = require('fs')
 const child_process = require('child_process')
-import CommandPlugin from 'gbp-common'
+const CommandPlugin = require('./gbp-common').CommandPlugin
+const Markdown = require('./gbp-common').Markdown
 
 class VNStatPlugin extends CommandPlugin {
     constructor() {
@@ -50,7 +51,7 @@ class VNStatPlugin extends CommandPlugin {
     }
 }
 
-export default {
+module.exports = {
     commands: [VNStatPlugin],
     VNStatPlugin: VNStatPlugin
 }

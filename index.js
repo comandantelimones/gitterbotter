@@ -1,5 +1,5 @@
 
-const PluginLoader = require('./gbp-loader')
+const PluginLoader = require('./gbp-loader').PluginLoader
 const Bot = require('./gbp-bot').Bot
 
 const tokenfile = __dirname + '/tokenfile'

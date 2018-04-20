@@ -17,4 +17,6 @@ class PluginLoader {
     }
 }
 
-export default PluginLoader
+module.exports = {
+    PluginLoader
+}

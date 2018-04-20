@@ -1,5 +1,6 @@
 const os = require('os')
 const moment = require('moment')
+const CommandPlugin = require('./gbp-common').CommandPlugin
 
 class UptimePlugin extends CommandPlugin {
     constructor() {
@@ -24,7 +25,7 @@ class UptimePlugin extends CommandPlugin {
     }
 }
 
-export default {
+module.exports = {
     commands: [UptimePlugin],
     UptimePlugin: UptimePlugin
 }
