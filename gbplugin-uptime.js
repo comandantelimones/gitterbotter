@@ -4,7 +4,7 @@ const CommandPlugin = require('./gbp-common').CommandPlugin
 
 class UptimePlugin extends CommandPlugin {
     constructor() {
-        super('uptime', '\u23F3')
+        super('uptime', '\u23F3', true)
     }
 
     secondsToHumanReadable(secs) {

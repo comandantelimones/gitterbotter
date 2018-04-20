@@ -3,7 +3,7 @@ const CommandPlugin = require('./gbp-common').CommandPlugin
 
 class RetrieveFileCommand extends CommandPlugin {
     constructor() {
-        super('retrieve', '\ud83d\uDCC2')
+        super('retrieve', '\ud83d\uDCC2', false)
     }
     
     invoke(ctx, markup) {

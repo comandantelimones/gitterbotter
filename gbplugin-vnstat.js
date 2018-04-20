@@ -5,7 +5,7 @@ const Markdown = require('./gbp-common').Markdown
 
 class VNStatPlugin extends CommandPlugin {
     constructor() {
-        super('vnstat', '\ud83d\udcca')
+        super('vnstat', '\ud83d\udcca', true)
     }
 
     invoke(ctx, markup) {

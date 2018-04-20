@@ -3,7 +3,7 @@ const CommandPlugin = require('./gbp-common').CommandPlugin
 
 class VNStatImagePlugin extends CommandPlugin {
     constructor() {
-        super('vnstat-hourly', '\uD83D\uDCCA')
+        super('vnstat-hourly', '\uD83D\uDCCA', true)
     }
 
     invoke(ctx, markup) {
